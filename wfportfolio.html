@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <span class="span-bckgrnd title">
+        <span class="span-background-title">
             <h1>Fahrija Wyroski</h1>
         </span>
         <!--Navigation elements in the header-->
@@ -23,7 +23,7 @@
                     <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#contact-me">Contact Me</a>
+                    <a href="#contact-links">Contact Me</a>
                 </li>
                 <!--Dowload Resume-->
                 <li>
@@ -40,36 +40,7 @@
             <h2>Full Stack Developer</h2>
         </div>
     </section>
-    <!--About Me section-->
-    <section>
-        <div id="about-me" class="about-me-wrapper">
-            <div class="about-me-item about-me-title">
-                <p>About Me</p>
-            </div>
-            <div clss="about-me-item">
-                <!--Need to center text-->
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Sequi neque animi quo cupiditate commodi saepe culpa sed
-                    itaque velit maiores optio dolorem excepturi aperiam dolores,
-                    voluptatibus suscipit amet quis repellat!
-                </p>
-            </div>
-    </section>
 
-    <!--My Work Projects-->
-    <section>
-        <div id="work" class="work-projects">
-            <div class="work-container">
-                <div class="work-item work-title">
-                    <p>Work</p>
-                </div>
-                <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon Landing Page"
-                    title="Horiseon Landing Page" target="-blank" style="cursor:pointer;"
-                    class="work-item-project challenge-1-1refactor">
-
-                </div>
-
-            </div>
     </section>
     <div class="container">
         <section id="main-bio">
@@ -84,29 +55,81 @@
                 voluptatibus suscipit amet quis repellat!
             </p>
         </section>
+        <!--About Me section-->
+        <section>
+            <div id="about-me" class="about-me-wrapper">
+                <div class="about-me-item about-me-title">
+                    <h2>About Me</h2>
+                </div>
+                <div clss="about-me-item">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Sequi neque animi quo cupiditate commodi saepe culpa sed
+                        itaque velit maiores optio dolorem excepturi aperiam dolores,
+                        voluptatibus suscipit amet quis repellat!
+                    </p>
+                </div>
+        </section>
+
+        <!--My Work Projects-->
+        <section>
+            <div id="work" class="work-wrapper">
+                <div class="work-container">
+                    <div class="work-item work-title">
+                        <h2>Work</h2>
+                    </div>
+                    <div onclick="projectClicked('challenge-challenge-1run-buddy')"
+                        alt="Image Displaying the Run-Buddy Landing Page" title="Run-Buddy landing page" target="-blank"
+                        style="cursor:pointer;" class="work-item-project challenge-1run-buddy">
+                        <span class="span-background">
+                            <h4>Run-Buddy</h4>
+                            <span class="lower-text">HTML/CS</span>
+
+                    </div>
+                    <div onclick="projectClicked('challenge-challenge-2Horiseon')"
+                        alt="Image Displaying the Horiseon Landing Page" title="Horiseon landing page" target="-blank"
+                        style="cursor:pointer;" class="work-item-project challenge-2Horiseon">
+                        <span class="span-background">
+                            <h4>Horiseon</h4>
+                            <span class="lower-text">HTML/CS</span>
+
+                    </div>
+                    <div onclick="projectClicked('challenge-challenge-ComingSoon')"
+                        alt="Image Displaying the ComingSoon Landing Page" title="ComingSoon landing page"
+                        target="-blank" style="cursor:pointer;" class="work-item-project challenge-ComingSoon">
+                        <span class="span-background">
+                            <h4>Coming Soon...</h4>
+                            <span class="lower-text">HTML/CS</span>
+                    </div>
+
+
+        </section>
+
         <!-- My Hero section End -->
 
         <!--Contact section start-->
-
-        <section id="contact-links">
-            <div class="contact-info">
-                <h3>Contact Me</h3>
-                <address>
-                    <!--<li><strong>Email:</strong> <a href="#">fahrija_wyroski@live.com</a></li>
+        <!-- Footer Start-->
+        <footer>
+            <section id="contact-links">
+                <div class="contact-info">
+                    <h3>Contact Me</h3>
+                    <address>
+                        <!--<li><strong>Email:</strong> <a href="#">fahrija_wyroski@live.com</a></li>
                     <li><strong>Github:</strong> <a href="#">Likica</a></li>
                     <li><strong>Phone:</strong> <a href="#">(262) 233-3536</a></li>
                     <LI><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/fahrija-w-92a4b8128</a>
                     </li> -->
-                    <a href="mailto: fahrija_wyroski@live.com">Email</a>
-                    <a href="https://github.com/Likica">GitHUb Likica</a>
-                    <a href="tel: (262) 233-3536">Phone</a>
-                    <a href="https://www.linkedin.com/in/fahrija-w-92a4b8128/">LinkedIn</a>
+                        <a href="mailto: fahrija_wyroski@live.com">Email</a>
+                        <a href="https://github.com/Likica">GitHUb Likica</a>
+                        <a href="tel: (262) 233-3536">Phone</a>
+                        <a href="https://www.linkedin.com/in/fahrija-w-92a4b8128/">LinkedIn</a>
+                    </address>
+                </div>
+            </section>
+        </footer>
 
-                </address>
-            </div>
-        </section>
-    </div>
-    <!--Contact section end-->
+        <!--Contact section end-->
+        <!-- Footer End-->
+
 </body>
 
 </html>
