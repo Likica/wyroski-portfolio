@@ -72,9 +72,9 @@ header nav ul li a:hover {
 /* Added bckgrnd image for sub-title - need to readjust and find size */
 .hero {
     background: rgb(228, 151, 97);
-    background-image: url("./images/SubtitleBkgrnd.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("./images/CodeS.png");
+    background-size:contain;
+    background-repeat:round;
     background-position: center;
     display: flex;
     text-align: right;
