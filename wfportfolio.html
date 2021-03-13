@@ -1,36 +1,97 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
     <meta charset="UTF-8" />
     <title>WyroskiF Portfolio</title>
 
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles.css" />
 </head>
 
 <body>
     <header>
-        <h1>Fahrija Wyroski</h1>
+        <span class="span-bckgrnd title">
+            <h1>Fahrija Wyroski</h1>
+        </span>
+        <!--Navigation elements in the header-->
+        <nav>
+            <ul class="nav-effect">
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <!--Dowload Resume-->
+                <li>
+                    <a href="./assets/resume/FWYROSKI _2021 RESUME.docx" dowload>Resume</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
+    <!--My Hero Section-->
+    <section class="hero">
+        <!--Add flex container-->
+        <div class="hero-subtitle">Full Stack Developer</div>
+    </section>
+    <!--About Me section-->
+    <article>
+        <div id="about-me" class="about-me-wrapper">
+            <div class="about-me-item about-me-title">
+                <p>About Me</p>
+            </div>
+            <div clss="about-me-item">
+                <!--Need to center text-->
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sequi neque animi quo cupiditate commodi saepe culpa sed
+                    itaque velit maiores optio dolorem excepturi aperiam dolores,
+                    voluptatibus suscipit amet quis repellat!
+                </p>
+            </div>
+    </article>
+
+    <!--My Work Projects-->
+    <article>
+        <div id="work" class="work-projects">
+            <div class="work-container">
+                <div class="work-item work-title">
+                    <p>Work</p>
+                </div>
+                <div onclick="projectClicked('challenge-1-refactor')" alt="Image Displaying the Horiseon Landing Page"
+                    title="Horiseon Landing Page" target="-blank" style="surcor:pointer;"
+                    class="work-item-project challenge-1-1refactor">
+
+                </div>
+
+            </div>
+    </article>
     <div class="container">
         <section id="main-bio">
             <h2>Professional Portfolio</h2>
-
+            <!-- Need to resize & reposition the photo container!!!!-->
             <img id="bio-image" src="./assets/images/MyPhoto.jpg" alt="Fahrija Wyroski" />
 
             <p>
-                I am a full-stack web developer!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Sequi neque animi quo cupiditate commodi saepe culpa sed
+                itaque velit maiores optio dolorem excepturi aperiam dolores,
+                voluptatibus suscipit amet quis repellat!
             </p>
         </section>
 
-        <section id="contact-info">
-            <h2>Contact Info</h2>
+        <div class="contact-info">
+            <h3>Contact Me</h3>
+        </div>
+        <section id="contact-links">
             <ul>
                 <li><strong>Email:</strong> <a href="#">fahrija_wyroski@live.com</a></li>
                 <li><strong>Github:</strong> <a href="#">Likica</a></li>
-                <li>
-                    <strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/fahrija-w-92a4b8128</a>
+                <li><strong>Phone:</strong> <a href="#">(262) 233-3536</a></li>
+                <strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/fahrija-w-92a4b8128</a>
                 </li>
             </ul>
         </section>
