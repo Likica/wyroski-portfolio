@@ -1,8 +1,7 @@
 :root {
     --primary-color: #cee9ff;
     --secondary-color: #6c0276;
-    --tertiary-color: #121429;
-   
+    --tertiary-color: #2b2d42;
 }
 
 * {
@@ -72,7 +71,7 @@ header nav ul li a:hover {
 
 .hero {
     background: rgb(228, 151, 97);
-    background-image: url("/assets/images/CodeS.png");
+    background-image: url(./images/CodeS.png);
     background-size: contain;
     background-repeat:round;
     background-position: center;
@@ -93,20 +92,24 @@ header nav ul li a:hover {
 
 section {
     padding: 60px;
-    
+}
+/* Resize image on portfolio*/
+img {
+    max-width: 15%;
+    height: auto;
 }
 
 /* Hero styling end/
 
 /*Footer Styling Start*/
 /* add sematic code, box resize and Contact links alignment and positioning */
-
 footer {
 padding: 20px 35px;
 
 }
 
 footer h3 {
+    text-shadow: blue;
     color:  var(--secondary-color);
     font-size: 30px;
 
@@ -139,65 +142,67 @@ address {
 }
   
   .work-item {
-    padding-top: 10px;
+    padding-top: 45px;
     font-size: 35px;
-    grid-row: 1 / span 9;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 45px;
     border-right: 2px solid var(--tertiary-color);
   }
   
   .work-item-project.challenge-1run-buddy { 
     
-    background-image: url("//assets/images/Run-Buddy.png");
+    background-image: url(./images/Run-Buddy.png);
     background-size: cover;
     display: flex; 
     align-items:center;
     padding-left: 0px;
     padding-bottom: 15px;
     text-align: left;
-    border: .25vw solid var(--rgba-border-color-opacity);
+    border: .25vw solid var(--primary-color);
   }
   
   .work-item-project.challenge-2Horiseon {
    
-    background-image: url("/assets/images/Horiseon.png");
+    background-image: url(./images/Horiseon.png);
     background-size: cover;
     display: flex;
     align-items: center;
     padding-left: 0px;
     padding-bottom: 15px;
     text-align: left;
-    border: .25vw solid var(--tertiary-color);
+    border: .25vw solid var(--primary-color);
   }
   
   .work-item-project.challenge-ComingSoon {
     
-    background-image: url("/assets/images/ComingSoon.png");
+    background-image: url(./images/ComingSoon.png);
     background-size: cover;
     display: flex;
     align-items: center;
     padding-left: 0px;
     padding-bottom: 15px;
     text-align: left;
-    border: .25vw solid var(--tertiary-color);
+    border: .25vw solid var(--primary-color);
   }
 
 
 /* Hover effect Header - to fade color/hnage color of text once hovering over the project*/
-.nav-effect a:hover{ 
+.nav-effect a:hover { 
     color: var(--primary-color);
     font-weight: bold;
-    text-shadow: 0px 0px 20px var(--secondary-color);
   }
   
   /* Hover effect for Work Projects - to fade color/hnage color of text once hovering over the project*/
-  .work-container div:hover{ 
+  .work-container div:hover { 
     mix-blend-mode:lighten;
+    text-shadow: 0px 0px 20px var(--secondary-color);
+    transform: scale(1.5);
+    margin-right: calc(5% + 10px);
+    margin-left: 5%;
   }
   
   /* Footer hover start - to fade color/hnage color of text once hovering over the project*/
-  .footer a:hover{
+  .footer a:hover {
     color: var(--primary-color);
     font-weight: bold;
     text-shadow: 0px 0px 20px var(--secondary-color);
