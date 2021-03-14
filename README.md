@@ -4,6 +4,7 @@
 * Included in this portfolio are: Aboout me in brief, examples of projects linking directly to GitHub, short biography and contact details
    
     <img id="Landing-Pg-Snapshot" src="./assets/images/PortfolioLandingPage.png" alt="Professional Portfolio"/>
+
 ### Built With
 * HTML
 * CSS
@@ -12,13 +13,12 @@
 * Use top navigation panel to access sections of the webpage such as About Me, Work, Contact Me and my complete Resume.
 * Use bottom links for contacting via emal, phone or social media LinkedIn.
 
-
 <img id="Header-Nav" src="./assets/images/Header-Nav.png" alt="Header Navigation Links"/>
 <img id="Footer-Nav" src="./assets/images/Footer-Nav.png" alt="Footer Navigation Links"/>
 
 
 ## Website
-* /Users/fahrijaw/Desktop/projects/wyroski-portfolio/wfportfolio.html
-#### Add Active link once launched on GitHUb page
+* https://likica.github.io/wyroski-portfolio/
+
 ## Contribution
 Made with ❤️ by Fahrija Wyroski
