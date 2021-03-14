@@ -11,9 +11,14 @@
 ### Page Navigation Tips
 * Use top navigation panel to access sections of the webpage such as About Me, Work, Contact Me and my complete Resume.
 * Use bottom links for contacting via emal, phone or social media LinkedIn.
-#### Add SNAPSHOT of Navigation top and bottom - Header and Footer`
+
+
+<img id="Header-Nav" src="./assets/images/Header-Nav.png" alt="Header Navigation Links"/>
+<img id="Footer-Nav" src="./assets/images/Footer-Nav.png" alt="Footer Navigation Links"/>
+
+
 ## Website
 * /Users/fahrijaw/Desktop/projects/wyroski-portfolio/wfportfolio.html
-#### Add Acvite link once launched on GitHUb page
+#### Add Active link once launched on GitHUb page
 ## Contribution
 Made with ❤️ by Fahrija Wyroski
