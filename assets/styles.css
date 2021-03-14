@@ -10,12 +10,20 @@
     padding: 0;
 }
 
+ /* Centering website on the screen */
+
 body {
     color:  var(--tertiary-color);
     font-family:'Times New Roman', Times, serif;
     background-color: rgb(135, 180, 182);
     line-height: 1.5;
 }
+#page-wrap { 
+    position: absolute; 
+    left: 50%; 
+    width: 800px;
+    margin-left: -400px;
+  }
 
 /*Header styling start*/
 header {
@@ -68,6 +76,8 @@ header nav ul li a:hover {
 p {
         float: right;
         margin-left: 25px;
+        font-size: 20px;
+        font-style: oblique;
     }
 
 
@@ -93,12 +103,12 @@ p {
 }
 
 .hero-subtitle {
-    text-align: center;
+    text-align: right;
     color:orange;
 }
 
 section {
-    padding: 60px;
+    padding: 0px 55px;
     }
 
 /* Resize image on portfolio*/
@@ -112,14 +122,14 @@ img {
 /*Footer Styling Start*/
 /* add sematic code, box resize and Contact links alignment and positioning */
 footer {
-padding: 20px 35px;
+padding: 0px 15px;
 
 }
 
 footer h3 {
-    text-shadow: blue;
-    color:  var(--secondary-color);
-    font-size: 30px;   
+    text-align: left;
+    font-size: 25px;
+    color: purple;
 }
 
 footer a {
@@ -127,7 +137,7 @@ footer a {
     padding: 20px 35px;
 }
 
-/* Align links to the rgiht */
+/* Align links to the right */
 address {
     background-color: slategrey;
     display: flex;
@@ -147,10 +157,10 @@ address {
 }
   
   .work-item {
-    padding-top: 45px;
-    font-size: 35px;
-    text-align: right;
-    padding-right: 45px;
+    padding-top: 85px;
+    font-size: 25px;
+    text-align: center;
+    padding-right: 85px;
     border-right: 2px solid var(--tertiary-color);
   }
   
@@ -160,9 +170,10 @@ address {
     background-size: cover;
     display: flex; 
     align-items:center;
-    padding-left: 0px;
-    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-bottom: 25px;
     text-align: left;
+    color: rgb(84, 219, 50);
     border: .25vw solid var(--primary-color);
   }
   
@@ -172,9 +183,10 @@ address {
     background-size: cover;
     display: flex;
     align-items: center;
-    padding-left: 0px;
-    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-bottom: 25px;
     text-align: left;
+    color: rgb(84, 219, 50);
     border: .25vw solid var(--primary-color);
   }
   
@@ -184,19 +196,33 @@ address {
     background-size: cover;
     display: flex;
     align-items: center;
-    padding-left: 0px;
-    padding-bottom: 15px;
-    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: rgb(84, 219, 50);
     border: .25vw solid var(--primary-color);
   }
-  
+  .work-item-project.challenge-ComingSoon1 {
+    
+    background-image: url(./images/ComingSoon.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: rgb(84, 219, 50);
+    border: .25vw solid var(--primary-color);
+  }
+
+
 /* Media Queries Start */
 /* Media Query for 980px screen */
 @media screen and (max-width: 980px) {
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
+header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
     }
 }
 header h1 {
@@ -231,29 +257,29 @@ footer h2, footer div {
 @media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
-    }
-
-/* Media Query for 575px screen */
-@media screen and (max-width: 575px) {
+        }
+    
+    /* Media Query for 575px screen */
+    @media screen and (max-width: 575px) {
     .hero-form button {
         width: 100%;
+        }
+    
+    .section-title {
+        width: 95%;
     }
-
-.section-title {
-    width: 95%;
-}
-
-.contact-info {
-    text-align: center;
-}
-
-.contact-info > * {
-    flex: 0 100%;
-}
-}
-};
-
-/* Media Queries End */
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    .contact-info > * {
+        flex: 0 100%;
+    }
+    }
+    };
+    
+    /* Media Queries End */
 
 /* Hover effect Header - to fade color/hnage color of text once hovering over the project*/
 .nav-effect a:hover { 
@@ -277,5 +303,3 @@ footer h2, footer div {
     text-shadow: 0px 0px 20px var(--secondary-color);
   };
   /* Footer Hover end */
-
-  
