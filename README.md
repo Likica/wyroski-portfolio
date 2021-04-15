@@ -3,7 +3,7 @@
 * This page is to showcase the professional portfolio of Fahrija Wyroski. 
 * Included in this portfolio are: Briefly "About me" and "Intro/bio", examples of projects linking directly to GitHub Pages launched links, and contact details
    
-    <img id="Landing-Pg-Snapshot" src="./assets/images/PortfolioLandingPage.png" alt="Professional Portfolio"/>
+    <img id="Landing-Pg-Snapshot" src="assets/images/portfolio_lp.png" alt="Professional Portfolio"/>
 
 ### Built With
 * HTML
