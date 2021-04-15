@@ -38,6 +38,7 @@
     <section class="hero">
         <!--Add flex container-->
         <div class="hero-subtitle">
+            <img id="bio-image" src="./assets/images/MyPhoto.jpg" alt="Fahrija Wyroski" />
             <h2>Full Stack Developer</h2>
         </div>
     </section>
@@ -45,68 +46,97 @@
     </section>
     <div class="container">
         <section id="main-bio">
-            <img id="bio-image" src="./assets/images/MyPhoto.jpg" alt="Fahrija Wyroski" />
             <!-- Need to resize & reposition the photo container!!!!-->
-            <h2>Professional Portfolio</h2>
-            <p>
-                Multi-lingual, organized, detail-oriented, analytical, and investigative team player with over
-                fifteen years of professional experience and a proven track-record of negotiating within the large
-                contracts. Particularly focused on continuous learning and self-improvement, gathering/processing data
-                from various sources and going extra mile while enjoying what I do. Determined, thorough, and personable
-                with excellent interpersonal communication and strong leadership skills.
-            </p>
-        </section>
-        <!--About Me section-->
-        <section>
-            <div id="about-me" class="about-me-wrapper">
-                <div class="about-me-item about-me-title">
-                    <h2>About Me</h2>
-                </div>
-                <div class="about-me-item">
-                    <p>Currently, I am employed as Lean Data Analyst with local warehousing and shipping company.
-                        As a Lean Data Analyst, I am responsible for supporting Quality and Continuous Improvement
-                        Departments by utilizing lean tools, analysis, reporting to the customer and management, root
-                        cause problem solving, and structuring of implementation planning requirements while looking for
-                        improvement opportunities for all operational areas.
+            <div id="intro" class="intro-wrapper">
+                <div class="intro-item intro-title">
+                    <h2>Professional Portfolio</h2>
+                    <p>
+                        Multi-lingual, organized, detail-oriented, analytical, and investigative team player with over
+                        twenty years of professional experience and a proven track-record of negotiating within the
+                        large
+                        contracts. Particularly focused on continuous learning and self-improvement,
+                        gathering/processing data
+                        from various sources and going extra mile while enjoying what I do. Determined, thorough, and
+                        personable
+                        with excellent interpersonal communication and strong leadership skills.
                     </p>
                 </div>
+                <!--About Me section-->
+                <div id="about-me" class="about-me-wrapper">
+                    <div class="about-me-item about-me-title">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="about-me-item">
+                        <p>Currently, I am employed as Lean Data Analyst with local warehousing and shipping company.
+                            As a Lean Data Analyst, I am responsible for supporting Quality and Continuous Improvement
+                            Departments by utilizing lean tools, analysis, reporting to the customer and management,
+                            root
+                            cause problem solving, and structuring of implementation planning requirements while looking
+                            for
+                            improvement opportunities for all operational areas.
+                        </p>
+                    </div>
         </section>
 
         <!--My Work Projects-->
         <section>
+
             <div id="work" class="work-wrapper">
+                <div class="work-item work-title">
+                    <h2>Work Projects</h2>
+                </div>
                 <div class="work-container">
-                    <div class="work-item work-title">
-                        <h3>Work Projects</h3>
-                    </div>
-                    <div onclick="window.open('https://github.com/Likica/run-buddy')"
-                        alt="Image Displaying the Run-Buddy Landing Page" title="Run-Buddy landing page" target="-blank"
-                        style="cursor:pointer" class="work-item-project challenge-1run-buddy">
-                        <span class="span-background">
+
+                    <div>
+                        <h3>Run Buddy with HTML/CSS</h3>
+                        <span onclick="window.open('https://likica.github.io/run-buddy/')"
+                            alt="Image Displaying the Run-Buddy Landing Page" title="Run-Buddy landing page"
+                            target="-blank" style="cursor:pointer" class="work-item-project challenge-1run-buddy">
+                            <!-- <span class="span-background">
                             <h4>Run-Buddy</h4>
-                            <span class="lower-text">HTML/CSS</span>
+                            <span class="lower-text">HTML/CSS</span> -->
+                        </span>
                     </div>
-                    <div onclick="window.open('https://github.com/Likica/horiseon-challenge')"
-                        alt="Image Displaying the Horiseon Landing Page" title="Horiseon landing page" target="-blank"
-                        style="cursor:pointer" class="work-item-project challenge-2Horiseon">
-                        <span class="span-background">
+
+                    <div>
+                        <h3>Horiseon with HTML/CSS</h3>
+                        <span onclick="window.open('https://likica.github.io/horiseon-challenge/')"
+                            alt="Image Displaying the Horiseon Landing Page" title="Horiseon landing page"
+                            target="-blank" style="cursor:pointer" class="work-item-project challenge-2Horiseon">
+                        </span>
+                    </div>
+
+                    <!-- <div class="span-background">
                             <h4>Horiseon</h4>
                             <span class="lower-text">HTML/CSS</span>
+                        </div> -->
+
+
+                    <div>
+                        <h3>Just Kitten Around! with HTML/CSS/JS/APIs</h3>
+                        <span onclick="window.open('https://likica.github.io/kitty_translator/')"
+                            alt="Image Displaying the Just Kitten Around Landing Page" title="kitty-translator"
+                            target="-blank" style="cursor:pointer" class="work-item-project kitty-translator">
+                            <!-- <div class="project-title">
+                        <h4>Just Kitten Around!</h4>
+                        <span class="lower-text">HTML/CSS/JS/APIs</span>
+                    </div> -->
+                        </span>
                     </div>
-                    <div onclick="window.open('challenge-challenge-ComingSoon')"
-                        alt="Image Displaying the ComingSoon Landing Page" title="ComingSoon landing page"
-                        target="-blank" style="cursor:pointer" class="work-item-project challenge-ComingSoon">
-                        <span class="span-background">
-                            <h4>Coming Soon...</h4>
-                            <span class="lower-text">HTML/CSS</span>
+
+                    <div>
+                        <h3>Coming Soon...</h3>
+                        <span onclick="window.open('challenge-challenge-ComingSoon1')"
+                            alt="Image Displaying the ComingSoon Landing Page" title="ComingSoon landing page"
+                            target="-blank" style="cursor:pointer" class="work-item-project challenge-ComingSoon1">
+                            <!-- <div class="span-background">
+                        <h4>Coming Soon...</h4>
+                        <span class="lower-text">HTML/CSS</span>
+                        </div> -->
+                        </span>
                     </div>
-                    <div onclick="window.open('challenge-challenge-ComingSoon1')"
-                        alt="Image Displaying the ComingSoon Landing Page" title="ComingSoon landing page"
-                        target="-blank" style="cursor:pointer" class="work-item-project challenge-ComingSoon1">
-                        <span class="span-background">
-                            <h4>Coming Soon...</h4>
-                            <span class="lower-text">HTML/CSS</span>
-                    </div>
+                </div>
+
         </section>
 
         <!-- My Hero section End -->

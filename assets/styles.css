@@ -5,7 +5,7 @@
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
     margin: 0;
     padding: 0;
 }
@@ -92,7 +92,7 @@ p {
     background-repeat:round;
     background-position: center;
     display: flex;
-    text-align: right;
+    /* text-align: right; */
     align-items: flex-end;
     padding: 2% 6%;
     flex-direction: row; 
@@ -103,17 +103,25 @@ p {
 }
 
 .hero-subtitle {
-    text-align: right;
+    text-align: left;
     color:orange;
 }
 
 section {
-    padding: 0px 55px;
+    padding: 25px 55px;
     }
-
+.intro-wrapper {
+        text-indent: 15%;
+        align-content: space-around;
+        
+    }
+.about-me-wrapper {
+    text-indent: 15%;
+    align-content: space-around;
+}
 /* Resize image on portfolio*/
 img {
-    max-width: 11%;
+    max-width: 15%;
     height: auto;
 }
 
@@ -149,7 +157,7 @@ address {
 
 /* Work - Projects section styling start */
 .work-container {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px 10px;
@@ -157,22 +165,27 @@ address {
 }
   
   .work-item {
-    padding-top: 85px;
+    padding-top: 75px;
     font-size: 25px;
-    text-align: center;
-    padding-right: 85px;
+    text-align:left;
+    padding-right: 75px;
     border-right: 2px solid var(--tertiary-color);
   }
+
+  /* .work-title{
+      padding-top: 25px;
+      padding-bottom: 25px;
+  } */
   
   .work-item-project.challenge-1run-buddy { 
     
     background-image: url(./images/Run-Buddy.png);
     background-size: cover;
-    display: flex; 
+    display:flex; 
     align-items:center;
-    padding-left: 25px;
-    padding-bottom: 25px;
-    text-align: left;
+    padding-left: 200px;
+    padding-bottom: 200px;
+    text-align:center;
     color: rgb(84, 219, 50);
     border: .25vw solid var(--primary-color);
   }
@@ -183,33 +196,34 @@ address {
     background-size: cover;
     display: flex;
     align-items: center;
-    padding-left: 25px;
-    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-bottom: 200px;
     text-align: left;
     color: rgb(84, 219, 50);
     border: .25vw solid var(--primary-color);
   }
   
-  .work-item-project.challenge-ComingSoon {
+  .work-item-project.kitty-translator {
     
-    background-image: url(./images/ComingSoon.png);
+    background-image: url(./images/kitty_transl.png);
     background-size: cover;
     display: flex;
     align-items: center;
-    padding-left: 25px;
-    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-bottom: 200px;
     text-align: center;
     color: rgb(84, 219, 50);
     border: .25vw solid var(--primary-color);
   }
+ 
   .work-item-project.challenge-ComingSoon1 {
     
     background-image: url(./images/ComingSoon.png);
     background-size: cover;
     display: flex;
     align-items: center;
-    padding-left: 25px;
-    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-bottom: 200px;
     text-align: center;
     color: rgb(84, 219, 50);
     border: .25vw solid var(--primary-color);
