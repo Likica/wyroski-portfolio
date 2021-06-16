@@ -216,7 +216,7 @@ address {
     border: .25vw solid var(--primary-color);
   }
  
-  .work-item-project.challenge-roast-me {
+  .work-item-project.roast-me {
     
     background-image: url(./images/roast_me.png);
     background-size: cover;
