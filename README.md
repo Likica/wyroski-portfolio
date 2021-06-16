@@ -21,4 +21,4 @@
 * https://likica.github.io/wyroski-portfolio/
 
 ## Contribution
-Made with ❤️ by Fahrija Wyroski
+Made with ❤️ by Likica
