@@ -202,7 +202,30 @@ address {
     color: rgb(84, 219, 50);
     border: .25vw solid var(--primary-color);
   }
-  
+  .work-item-project.workday-scheduler {
+    
+    background-image: url(./images/WDS_landing_pg.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: rgb(84, 219, 50);
+    border: .25vw solid var(--primary-color);
+  }
+  .work-item-project.readme-generator {
+    
+    background-image: url(./images/readme-generator.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: rgb(84, 219, 50);
+    border: .25vw solid var(--primary-color);
+  }
   .work-item-project.kitty-translator {
     
     background-image: url(./images/kitty_transl.png);
