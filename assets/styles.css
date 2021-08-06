@@ -251,7 +251,30 @@ address {
     color: rgb(84, 219, 50);
     border: .25vw solid var(--primary-color);
   }
-
+  .work-item-project.bbcm-programs {
+    
+    background-image: url(assets/images/bbcm.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: rgb(84, 219, 50);
+    border: .25vw solid var(--primary-color);
+  }
+  .work-item-project.code-quiz {
+    
+    background-image: url(assets/images/codequiz.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: rgb(84, 219, 50);
+    border: .25vw solid var(--primary-color);
+  }
 
 /* Media Queries Start */
 /* Media Query for 980px screen */
