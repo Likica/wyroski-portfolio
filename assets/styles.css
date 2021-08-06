@@ -253,7 +253,7 @@ address {
   }
   .work-item-project.bbcm-programs {
     
-    background-image: url(assets/images/bbcm.png);
+    background-image: url(./images/bbcm.png);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -265,7 +265,7 @@ address {
   }
   .work-item-project.code-quiz {
     
-    background-image: url(assets/images/codequiz.png);
+    background-image: url(./images/codequiz.png);
     background-size: cover;
     display: flex;
     align-items: center;
