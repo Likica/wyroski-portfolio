@@ -93,13 +93,14 @@ p {
     background-position: center;
     display: flex;
     /* text-align: right; */
-    align-items: flex-end;
+    /* align-items: flex-end; */
     padding: 2% 6%;
     flex-direction: row; 
 }
 
 .hero div {
     flex: 0 0 90%;
+    text-align: left;
 }
 
 .hero-subtitle {
@@ -111,13 +112,13 @@ section {
     padding: 25px 55px;
     }
 .intro-wrapper {
-        text-indent: 15%;
+        text-indent: 1%;
         align-content: space-around;
         text-align:left;
         
     }
 .about-me-wrapper {
-    text-indent: 15%;
+    text-indent: 1%;
     align-content: space-around;
     text-align:left;
     padding-bottom: 15px;
