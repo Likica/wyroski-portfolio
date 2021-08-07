@@ -113,11 +113,17 @@ section {
 .intro-wrapper {
         text-indent: 15%;
         align-content: space-around;
+        text-align:left;
         
     }
 .about-me-wrapper {
     text-indent: 15%;
     align-content: space-around;
+    text-align:left;
+    padding-bottom: 15px;
+}
+.about-me-title {
+    text-align:left;
 }
 /* Resize image on portfolio*/
 img {
@@ -165,16 +171,16 @@ address {
 }
   
   .work-item {
-    padding-top: 75px;
-    font-size: 25px;
+    padding-top: 15px;
+    font-size: 20px;
     text-align:left;
     padding-right: 75px;
-    border-right: 2px solid var(--tertiary-color);
+    border-right: 2px;
   }
 
-  /* .work-title{
-      padding-top: 25px;
-      padding-bottom: 25px;
+  /* .work-item.work-title{
+      padding-top: 45px;
+      padding-bottom: 5px;
   } */
   
   .work-item-project.challenge-1run-buddy { 
@@ -307,6 +313,7 @@ footer h2, footer div {
 
 .section-title {
     width: 80%;
+   
 }
 
 .contact-info iframe {
